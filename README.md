@@ -1,4 +1,6 @@
-# 🎬 AutoSub Studio - AI Video Translation, Dubbing & Subtitle Suite
+# 🎬 VietAnh Sub Studio - AI Video Translation, Dubbing & Subtitle Suite
+
+Bản tùy chỉnh từ [AutoSub Studio của Duymanh206](https://github.com/Duymanh206/dichAI).
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-2.2.0-gold?style=for-the-badge" alt="Version">
@@ -8,7 +10,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
 
-**AutoSub Studio (dichAI)** là bộ công cụ desktop/web all-in-one chuyên nghiệp dành cho biên tập viên video, reup phim, dịch truyện tranh chuyển động (manhua/anime), tóm tắt phim và sáng tạo nội dung đa ngôn ngữ.
+**VietAnh Sub Studio (dichAI)** là bộ công cụ desktop/web all-in-one chuyên nghiệp dành cho biên tập viên video, reup phim, dịch truyện tranh chuyển động (manhua/anime), tóm tắt phim và sáng tạo nội dung đa ngôn ngữ.
 
 Hệ thống tự động hóa hoàn toàn quy trình:
 > **Nhận diện giọng nói (AI ASR) / Quét sub cứng (OCR)** ➔ **Dịch thuật ngữ cảnh bằng AI (Gemini / OpenAI / DeepSeek)** ➔ **Lồng tiếng thuyết minh (CapCut & Edge-TTS)** ➔ **Xóa phụ đề cũ (Smart Blur Box)** ➔ **Render video thành phẩm chuẩn tỉ lệ**.

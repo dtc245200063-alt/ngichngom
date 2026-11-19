@@ -1210,7 +1210,7 @@ export default function App() {
               EZ
             </div>
             <div className="flex items-baseline space-x-1.5">
-              <span className="font-extrabold tracking-tight text-white text-base">EZMAXSUB</span>
+              <span className="font-extrabold tracking-tight text-white text-base">VietAnh Sub</span>
               <span className="text-[10px] bg-[#2d2e35] text-[#f5a623] px-1.5 py-0.5 rounded font-mono font-medium">STUDIO v2.2</span>
             </div>
           </div>
@@ -1347,8 +1347,8 @@ export default function App() {
                         className="w-full bg-[#141518] border border-[#2b2c32] rounded px-2 py-1.5 text-xs text-white focus:border-[#f5a623] outline-none"
                       >
                         <option value="gemini-audio">Gemini Audio ASR (Siêu nhanh 10x - Khuyên dùng)</option>
-                        <option value="pp-ocrv4">Ezmax OCR Pro (Quét Sub cứng bằng RapidOCR)</option>
-                        <option value="ocr-lite">Ezmax OCR Lite (Quét sub nhanh)</option>
+                        <option value="pp-ocrv4">VietAnh OCR Pro (Quét Sub cứng bằng RapidOCR)</option>
+                        <option value="ocr-lite">VietAnh OCR Lite (Quét sub nhanh)</option>
                         <option value="whisper">OpenAI Whisper ASR</option>
                       </select>
                     </div>

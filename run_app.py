@@ -30,7 +30,7 @@ def free_port(port=8000):
 def open_browser():
     time.sleep(1.5)
     url = "http://127.0.0.1:8000"
-    print(f"\n[+] Đang mở AutoSub Studio tại: {url}\n")
+    print(f"\n[+] Đang mở VietAnh Sub Studio tại: {url}\n")
     webbrowser.open(url)
 
 if __name__ == "__main__":
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     sys.path.insert(0, os.path.join(base_dir, "backend"))
 
     print("=" * 60)
-    print("   EZMAXSUB / AutoSub Studio v2.2 - AI Video Translation")
+    print("   VietAnh Sub Studio v2.2 - AI Video Translation")
     print("=" * 60)
     print("[*] Tự động kiểm tra và dọn dẹp cổng 8000...")
     free_port(8000)

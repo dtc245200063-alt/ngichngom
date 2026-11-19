@@ -34,7 +34,7 @@ from core.smart_aligner import (
     recover_missing_dialogue_with_ai
 )
 
-app = FastAPI(title="AutoSub Studio - Video Translation & Dubbing AI")
+app = FastAPI(title="VietAnh Sub Studio - Video Translation & Dubbing AI")
 
 app.add_middleware(
     CORSMiddleware,
@@ -900,7 +900,7 @@ async def get_export_defaults(video_id: str):
     if not video:
         return JSONResponse(status_code=404, content={"error": "Video not found"})
     clean_title = Path(video["title"]).stem
-    default_name = f"AutoSub_{clean_title}.mp4"
+    default_name = f"VietAnhSub_{clean_title}.mp4"
     return {
         "default_filename": default_name,
         "default_export_dir": str(EXPORTS_DIR.resolve())
@@ -920,7 +920,7 @@ async def export_video(req: ExportRequest):
     export_dir.mkdir(parents=True, exist_ok=True)
 
     clean_title = Path(video['title']).stem
-    default_name = f"AutoSub_{clean_title}.mp4"
+    default_name = f"VietAnhSub_{clean_title}.mp4"
     raw_name = (req.custom_filename or default_name).strip()
     if not raw_name.lower().endswith(".mp4"):
         raw_name += ".mp4"
@@ -983,7 +983,7 @@ if FRONTEND_DIST.exists():
 else:
     @app.get("/")
     def index():
-        return {"message": "AutoSub Studio Backend API is running."}
+        return {"message": "VietAnh Sub Studio Backend API is running."}
 
 if __name__ == "__main__":
     import uvicorn
