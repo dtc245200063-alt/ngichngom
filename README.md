@@ -1,4 +1,4 @@
-# 🎬 VietAnh Sub Studio - AI Video Translation, Dubbing & Subtitle Suite
+# 🎬 VAnh Sub Studio - AI Video Translation, Dubbing & Subtitle Suite
 
 Bản tùy chỉnh từ [AutoSub Studio của Duymanh206](https://github.com/Duymanh206/dichAI).
 
